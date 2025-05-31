@@ -1,7 +1,19 @@
 {
-    "name": "BG2EUR",
+    "id": "/BG2EUR",
+    "name": "Конвертиране Български лев в Евро (BGN → EUR)",
     "short_name": "BG2EUR",
+    "description": "Помощник за конвертиране на Български лев в Евро (BGN → EUR) по централния курс от 1,95583 лева за 1 евро",
     "display": "standalone",
+    "display_override": ["fullscreen", "minimal-ui"],
+    "lang": "bg",
+    "launch_handler": {
+        "client_mode": ["focus-existing", "auto"]
+    },
+    "categories": ["utilities"],
+    "prefer_related_applications": false,
+    "orientation": "any",
+    "screenshots": [],
+    "theme_color": "#fff",
     "scope": "./",
     "start_url": "./",
     "background_color": "#fff",
