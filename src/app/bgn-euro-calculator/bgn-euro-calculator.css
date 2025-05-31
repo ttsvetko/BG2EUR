@@ -8,10 +8,23 @@ mat-form-field {
     width: 100%;
 }
 
-mat-icon {
+mat-icon.exchange-icon {
     align-self: center;
     font-size: 2rem;
     height: 2rem;
     width: 2rem;
     margin-bottom: 1rem;
+}
+
+mat-card-footer {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    mat-icon {
+        flex: none;
+        padding-right: 0.5rem;
+        color: blue;
+    }
 }
