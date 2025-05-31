@@ -26,7 +26,7 @@ export class BgnEuroCalculator {
                     return;
                 }
 
-                this.formGroup.controls.euro.setValue(this.formatValue(value * 1.95583), {
+                this.formGroup.controls.euro.setValue(this.formatValue(value / 1.95583), {
                     emitEvent: false,
                 });
             },
@@ -38,7 +38,7 @@ export class BgnEuroCalculator {
                     this.formGroup.controls.bgn.setValue(0, { emitEvent: false });
                     return;
                 }
-                this.formGroup.controls.bgn.setValue(this.formatValue(value / 1.95583), {
+                this.formGroup.controls.bgn.setValue(this.formatValue(value * 1.95583), {
                     emitEvent: false,
                 });
             },
