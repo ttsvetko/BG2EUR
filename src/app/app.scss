@@ -10,3 +10,12 @@ main {
     position: sticky;
     top: 0;
 }
+
+mat-accordion,
+app-bgn-euro-calculator {
+    margin-bottom: 1rem;
+}
+
+mat-accordion mat-icon {
+    padding-right: 0.5rem;
+}
