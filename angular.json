@@ -3,7 +3,7 @@
     "version": 1,
     "newProjectRoot": "projects",
     "projects": {
-        "bg-euro-converter": {
+        "BG2EUR": {
             "projectType": "application",
             "schematics": {},
             "root": "",
@@ -60,10 +60,10 @@
                     "builder": "@angular/build:dev-server",
                     "configurations": {
                         "production": {
-                            "buildTarget": "bg-euro-converter:build:production"
+                            "buildTarget": "BG2EUR:build:production"
                         },
                         "development": {
-                            "buildTarget": "bg-euro-converter:build:development"
+                            "buildTarget": "bBG2EUR:build:development"
                         }
                     },
                     "defaultConfiguration": "development"

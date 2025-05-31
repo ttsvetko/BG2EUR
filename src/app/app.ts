@@ -10,6 +10,6 @@ import { MatToolbarModule } from '@angular/material/toolbar';
     imports: [MatSidenavModule, MatToolbarModule, BgnEuroCalculator],
 })
 export class App {
-    protected title = 'bg-euro-converter';
+    protected title = 'BG2EUR';
     protected readonly Array = Array;
 }

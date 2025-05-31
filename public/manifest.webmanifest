@@ -1,6 +1,6 @@
 {
-    "name": "bg-euro-converter",
-    "short_name": "bg-euro-converter",
+    "name": "BG2EUR",
+    "short_name": "BG2EUR",
     "display": "standalone",
     "scope": "./",
     "start_url": "./",

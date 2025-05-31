@@ -1,5 +1,5 @@
 {
-    "name": "bg-euro-converter",
+    "name": "BG2EUR",
     "version": "0.1.0",
     "scripts": {
         "ng": "ng",
@@ -7,7 +7,7 @@
         "build": "ng build",
         "watch": "ng build --watch --configuration development",
         "test": "ng test",
-        "serve:ssr:bg-euro-converter": "node dist/bg-euro-converter/server/server.mjs",
+        "serve:ssr:BG2EUR": "node dist/BG2EUR/server/server.mjs",
         "prepare": "husky"
     },
     "private": true,

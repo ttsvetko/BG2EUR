@@ -4,32 +4,19 @@
 name: Node.js CI
 
 on:
-  push:
-    branches: [ "master" ]
-  pull_request:
-    branches: [ "master" ]
+    push:
+        branches: ['master']
+    pull_request:
+        branches: ['master']
+
+permissions:
+    contents: read
+    pages: write
+    id-token: write
 
 jobs:
-  build:
-
-    runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: ['22.16.0']
-
-    steps:
-      - uses: actions/checkout@v4
-      
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v4
-        with:
-          node-version: ${{ matrix.node-version }}
-          cache: 'npm'
-      
-      - run: npm ci
-      
-      - run: npm run build -- --configuration production
-      
-      - name: Deploy to GitHub Pages
-        uses: bitovi/github-actions-angular-to-github-pages@v1.0.0
+    deploy:
+        runs-on: ubuntu-latest
+        steps:
+            - id: build-publish
+              uses: bitovi/github-actions-angular-to-github-pages@v1.0.0
