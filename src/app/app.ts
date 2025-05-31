@@ -6,7 +6,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 @Component({
     selector: 'app-root',
     templateUrl: './app.html',
-    styleUrl: './app.css',
+    styleUrl: './app.scss',
     imports: [MatSidenavModule, MatToolbarModule, BgnEuroCalculator],
 })
 export class App {
