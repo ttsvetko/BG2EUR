@@ -1,0 +1,17 @@
+mat-card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+mat-form-field {
+    width: 100%;
+}
+
+mat-icon {
+    align-self: center;
+    font-size: 2rem;
+    height: 2rem;
+    width: 2rem;
+    margin-bottom: 1rem;
+}

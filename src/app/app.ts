@@ -1,12 +1,15 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { BgnEuroCalculator } from './bgn-euro-calculator/bgn-euro-calculator';
+import { MatToolbarModule } from '@angular/material/toolbar';
 
 @Component({
-  selector: 'app-root',
-  imports: [RouterOutlet],
-  templateUrl: './app.html',
-  styleUrl: './app.css'
+    selector: 'app-root',
+    templateUrl: './app.html',
+    styleUrl: './app.css',
+    imports: [MatSidenavModule, MatToolbarModule, BgnEuroCalculator],
 })
 export class App {
-  protected title = 'bg-euro-converter';
+    protected title = 'bg-euro-converter';
+    protected readonly Array = Array;
 }

@@ -1,0 +1,12 @@
+mat-drawer-container {
+    height: 100%;
+}
+
+main {
+    padding: 1rem;
+}
+
+[mat-subheader] {
+    position: sticky;
+    top: 0;
+}
