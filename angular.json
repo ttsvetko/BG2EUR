@@ -63,7 +63,7 @@
                             "buildTarget": "BG2EUR:build:production"
                         },
                         "development": {
-                            "buildTarget": "bBG2EUR:build:development"
+                            "buildTarget": "BG2EUR:build:development"
                         }
                     },
                     "defaultConfiguration": "development"
