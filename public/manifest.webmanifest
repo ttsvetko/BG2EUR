@@ -11,7 +11,7 @@
     },
     "categories": ["utilities"],
     "prefer_related_applications": false,
-    "orientation": "any",
+    "orientation": "portrait-primary",
     "screenshots": [],
     "theme_color": "#fff",
     "scope": "./",
