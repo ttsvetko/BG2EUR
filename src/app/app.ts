@@ -25,7 +25,4 @@ import { MatIcon } from '@angular/material/icon';
         MatIcon,
     ],
 })
-export class App {
-    protected title = 'BG2EUR';
-    protected readonly Array = Array;
-}
+export class App {}

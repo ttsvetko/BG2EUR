@@ -2,13 +2,13 @@ mat-drawer-container {
     height: 100%;
 }
 
-main {
-    padding: 1rem;
+mat-toolbar {
+    color: var(--mat-sys-primary);
+    background: var(--mat-sys-primary-container);
 }
 
-[mat-subheader] {
-    position: sticky;
-    top: 0;
+main {
+    padding: 1rem;
 }
 
 mat-accordion,
