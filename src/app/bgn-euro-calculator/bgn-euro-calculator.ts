@@ -51,6 +51,6 @@ export class BgnEuroCalculator {
     }
 
     clear(formControl: FormControl) {
-        formControl.reset(0);
+        formControl.reset('');
     }
 }
