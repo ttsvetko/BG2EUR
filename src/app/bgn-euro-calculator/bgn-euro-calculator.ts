@@ -5,12 +5,13 @@ import { MatCardModule } from '@angular/material/card';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatIcon } from '@angular/material/icon';
 import { MatInput } from '@angular/material/input';
+import { MatButton } from '@angular/material/button';
 
 @Component({
     selector: 'app-bgn-euro-calculator',
     templateUrl: './bgn-euro-calculator.html',
     styleUrl: './bgn-euro-calculator.css',
-    imports: [MatCardModule, MatFormFieldModule, MatInput, MatIcon, ReactiveFormsModule],
+    imports: [MatCardModule, MatFormFieldModule, MatInput, MatIcon, ReactiveFormsModule, MatButton],
 })
 export class BgnEuroCalculator {
     formGroup = new FormGroup({
@@ -47,5 +48,9 @@ export class BgnEuroCalculator {
 
     private formatValue(value: number) {
         return Number(Number.parseFloat(String(value)).toFixed(2));
+    }
+
+    clear(formControl: FormControl) {
+        formControl.reset(0);
     }
 }
